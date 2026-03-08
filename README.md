@@ -61,7 +61,5 @@ Polynomial regression improved performance by capturing nonlinear relationships 
 * Gradient boosting models
 * Interactive dashboards
 
-## Author
-
 Aishi Dutta
 B.Tech Computer Science Engineering
