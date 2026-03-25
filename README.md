@@ -1,4 +1,3 @@
-# Real Estate Price Prediction (Machine Learning Project)
 # 🏠 Real Estate Price Prediction (Machine Learning Project)
 
 ## 📌 Project Overview
