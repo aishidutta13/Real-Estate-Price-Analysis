@@ -1,65 +1,90 @@
 # Real Estate Price Prediction (Machine Learning Project)
+# 🏠 Real Estate Price Prediction (Machine Learning Project)
 
-## Project Overview
+## 📌 Project Overview
+This project focuses on predicting housing prices using machine learning techniques on real-world data from King County, USA. It analyzes how property features such as size, location, and amenities influence market prices.
 
-This project analyzes housing data from King County, USA, to predict house prices using machine learning models.
-The goal is to understand how property features such as square footage, number of bedrooms, and location influence market price.
+---
 
-## Dataset
+## 🎯 Objectives
+- Perform data cleaning and preprocessing  
+- Conduct exploratory data analysis (EDA)  
+- Build and evaluate regression models  
+- Identify key factors affecting housing prices  
 
-The dataset contains residential house sales from **King County (Seattle area)** between **May 2014 and May 2015**.
+---
 
-Key features include:
+## 📊 Dataset
+- Source: King County Housing Dataset (USA)  
+- Time Period: May 2014 – May 2015  
 
-* Square footage of living space
-* Number of bedrooms
-* Number of bathrooms
-* Floors
-* Waterfront view
-* Geographic location
-* Overall house grade
+### Key Features:
+- Square footage of living space  
+- Number of bedrooms & bathrooms  
+- Floors  
+- Waterfront view  
+- Geographic location  
+- Overall house grade  
 
-## Technologies Used
+---
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
-* Jupyter Notebook
+## ⚙️ Technologies Used
+- Python  
+- Pandas & NumPy  
+- Matplotlib & Seaborn  
+- Scikit-learn  
+- Jupyter Notebook  
 
-## Machine Learning Models
+---
 
-The following models were implemented:
+## 🧠 Machine Learning Models
+- Linear Regression  
+- Multiple Linear Regression  
+- Ridge Regression  
+- Polynomial Ridge Regression  
 
-1. Linear Regression
-2. Multiple Linear Regression
-3. Ridge Regression
-4. Polynomial Ridge Regression
+---
 
-## Results
+## 📈 Results
 
 | Model                       | R² Score |
-| --------------------------- | -------- |
-| Linear Regression           | ~0.49    |
-| Ridge Regression            | 0.66     |
-| Polynomial Ridge Regression | **0.70** |
+|----------------------------|----------|
+| Linear Regression          | ~0.49    |
+| Ridge Regression           | 0.66     |
+| Polynomial Ridge Regression| **0.70** |
 
-Polynomial regression improved performance by capturing nonlinear relationships between housing features and price.
+👉 Polynomial regression achieved the best performance by capturing non-linear relationships.
 
-## Key Insights
+---
 
-* Larger living area strongly increases house price.
-* Waterfront properties have significantly higher prices.
-* Polynomial features improved model performance.
+## 🔍 Key Insights
+- Larger houses tend to have higher prices  
+- Waterfront properties significantly increase value  
+- Location plays a crucial role in pricing  
+- Polynomial features improved prediction accuracy  
 
-## Future Improvements
+---
 
-* Feature engineering
-* Hyperparameter tuning
-* Gradient boosting models
-* Interactive dashboards
+## 📸 Sample Output
+*(Add graphs/screenshots here later)*
 
-Aishi Dutta
+---
+
+## 🚀 How to Run
+1. Clone the repository  
+2. Open the Jupyter Notebook  
+3. Run all cells to reproduce results  
+
+---
+
+## 💡 Future Improvements
+- Advanced feature engineering  
+- Hyperparameter tuning  
+- Use of ensemble models (Random Forest, XGBoost)  
+- Deployment as a web app  
+
+---
+
+## 👩‍💻 Author
+**Aishi Dutta**  
 B.Tech Computer Science Engineering
